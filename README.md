@@ -8,9 +8,15 @@
 
 
 # Enable MQTT
+
 command ipconfig
+
 Go to file mosquitto
+
 run command mosquitto
+
 mosquitto_pub -h 192.168.88.220 -t home/room/led -m "OFF"   
+
 mosquitto_pub -h 192.168.88.220 -t home/room/led -m "ON"
+
 mosquitto_sub -h 192.168.88.220 -t test_topic  // to another cmd
