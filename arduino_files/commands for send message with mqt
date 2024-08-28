@@ -1,0 +1,8 @@
+mosquitto
+sudo systemctl start mosquitto
+sudo systemctl enable mosquitto
+sudo apt-get update
+sudo apt-get install mosquitto mosquitto-clients
+sudo systemctl status mosquitto
+mosquitto_pub -h 192.168.88.220 -t home/room/led -m "OFF"   // THE IP OF MQTT BROKER
+mosquitto_pub -h 192.168.88.220 -t home/room/led -m "ON"   // THE IP OF MQTT BROKER
