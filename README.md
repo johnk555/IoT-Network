@@ -1,4 +1,4 @@
-//This is a script to measure data from 3 sensors and shows them
+#This is a script to measure data from 3 sensors and put them in a database
 
 // BME // VIN -> 3V // GND -> GND // SCK -> SCL // SDI -> SDA
 
